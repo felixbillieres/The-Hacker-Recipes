@@ -1119,15 +1119,50 @@ export default defineConfig({
                     },
                     {
                         "text": "Pivoting",
+                        "link": "/infra/pivoting/index.md",
                         "collapsed": true,
                         "items": [
                             {
-                                "text": "🛠️ Port forwarding",
-                                "link": "/infra/pivoting/port-forwarding.md"
+                                "text": "Enumeration",
+                                "link": "/infra/pivoting/enumeration.md"
                             },
                             {
-                                "text": "🛠️ SOCKS proxy",
-                                "link": "/infra/pivoting/socks-proxy.md"
+                                "text": "Choosing a technique",
+                                "link": "/infra/pivoting/choosing-a-technique.md"
+                            },
+                            {
+                                "text": "Techniques",
+                                "collapsed": true,
+                                "items": [
+                                    {
+                                        "text": "Port forwarding",
+                                        "link": "/infra/pivoting/techniques/port-forwarding.md"
+                                    },
+                                    {
+                                        "text": "SSH tunneling",
+                                        "link": "/infra/pivoting/techniques/ssh-tunneling.md"
+                                    },
+                                    {
+                                        "text": "SOCKS proxy",
+                                        "link": "/infra/pivoting/techniques/socks-proxy.md"
+                                    },
+                                    {
+                                        "text": "Ligolo-ng",
+                                        "link": "/infra/pivoting/techniques/ligolo-ng.md"
+                                    }
+                                ]
+                            },
+                            {
+                                "text": "Multi-hop pivoting",
+                                "link": "/infra/pivoting/multi-hop.md"
+                            },
+                            {
+                                "text": "Operations",
+                                "link": "/infra/pivoting/operations.md"
+                            },
+                            {
+                                "text": "Persistence",
+                                "link": "/infra/pivoting/persistence.md"
                             }
                         ]
                     }
